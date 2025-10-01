@@ -20,4 +20,4 @@ jobs:
     
     - name: Deploy to S3
       run: |
-        aws s3 sync . s3://cmtr-b56386db-bucket-1759330963 --exclude ".git/*" --exclude ".github/*"
+        aws s3 sync . s3://cmtr-b56386db-bucket-1759330903 --exclude ".git/*" --exclude ".github/*"
